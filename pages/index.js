@@ -22,8 +22,23 @@ export default function Home({ posts }) {
         url={siteMetadata.siteUrl}
       />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5 text-center">
+          <div className="flex flex-col items-center justify-center p-6 mx-4 space-y-4 border-2 shadow-xl bg-indigo-100 rounded-lg">
+              <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+                Hey, I'm Surendhar
+              </h1>
+              <p className="text-xl">Full stack developer with experience in Java, Spring boot, Angular, NextJS, AWS, PCF</p>
+          </div>
+        </div>
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <div className="flex flex-col justify-center p-6 mx-4 space-y-4">
+              <p className="text-3xl font-extrabold">Projects</p>
+              <p className="text-xl">Full stack developer with experience in Java, Spring boot, Angular, NextJS, AWS, PCF</p>
+          </div>
+
+        </div>
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+          <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Latest
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
